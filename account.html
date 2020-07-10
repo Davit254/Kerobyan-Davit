@@ -7,6 +7,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+     <link rel="stylesheet" type="text/css" href="style.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 
     <title></title>
   </head>
@@ -38,7 +40,7 @@
          
       </div>
 
-    <div class="row b1  align-items-center p-1 bg-dark  text-light" >
+    <div class="row b1  align-items-center p-1  text-light bg-dark">
       <div class="col-6 col-md-2 ">
         <a href="index.html" class="link ml-1"><img src="https://cdn.dribbble.com/users/1732431/screenshots/4415224/dribbble.png" alt="" loading="lazy" width="150" height="60"></a>
       </div>
@@ -56,7 +58,7 @@
           <div class="dropdown-menu dropdown-menu-right " aria-labelledby="dropdownMenuButton">
             <a class="dropdown-item" href="#"  data-toggle="modal" data-target="#exampleModal">Login</a>
             <a class="dropdown-item" href="#"   data-toggle="modal" data-target="#staticBackdrop">Register</a>
-            <a class="dropdown-item" href="account.html">My Orders</a>
+            <a class="dropdown-item" href="#">My Orders</a>
             <a class="dropdown-item" href="accountsettings.html">Account Settings</a>
           </div>
         </div>
@@ -83,7 +85,7 @@
         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="index.html">Home page</a>
           <a class="dropdown-item" href="shop.html">Shop page</a>
-          <a class="dropdown-item" href="product.html">Product</a>
+          <a class="dropdown-item" href="product.html">Products</a>
         </div>
       </li>
        <li class="nav-item dropdown text-center">
@@ -108,145 +110,184 @@
       </li>
        
     </ul>
-    
+  
   </div>
 </nav>
   </div>     
 </div>
  </div>
-<!-- NOOTEBOOK -->
-<div class="text-center"  style="background-color: #ffbb00;"><h1>NOTEBOOK</h1></div>
-<div class="row justify-content-center" style="background-color:#ffbb00; ">
-<div class="card col-12  col-md-6  col-xl-2">
-  <img src="https://www.mtech.am/image/cache/catalog/Products/Xiaomi-Mi-Notebook-Air-12-5-JYU4000CN/1-500x500.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Notebook</h5>
-    <p class="card-text">1000$</p>
-    <a href="shop.html" class="btn btn-primary">Add to cart</a>
+<div class="row">
+  
+  <div>
+    <h3 style="margin-left:20px; ">My Orders </h3>
+
+<div class="row" style="width: 400px;margin-left: 10px; height: 400px;">
+  <div>
+    <table class="table table-hover">
+       <thead>
+              <tr>
+                     <th>Order</th>
+                     <th>Order Date</th>
+                     <th>Total</th>
+              </tr>
+       </thead>
+
+       <tbody>
+              <tr>
+               
+                     <td><img style="width: 40px;" src="https://www.mtech.am/image/cache/catalog/Products/Xiaomi-Mi-Notebook-Air-12-5-JYU4000CN/1-500x500.jpg"></td>
+                     <td>14.04.2020</td>
+                     <td>1000$</td>
+              </tr>
+
+              <tr>
+                      <td><img style="width: 40px;" src="https://www.mtech.am/image/cache/catalog/Products/Xiaomi-Mi-Notebook-Air-12-5-JYU4000CN/1-500x500.jpg"></td>
+                     <td>14.04.2020</td>
+                     <td>1000$</td>
+              </tr>
+
+              <tr>
+                     <td><img style="width: 40px;" src="https://www.mtech.am/image/cache/catalog/Products/Xiaomi-Mi-Notebook-Air-12-5-JYU4000CN/1-500x500.jpg"></td>
+                     <td>14.04.2020</td>
+                     <td>1000$</td>
+              </tr>
+            
+       </tbody>
+    </table>
   </div>
-</div>
-<div class="card col-12  col-md-6  col-xl-2">
-  <img src="https://www.mtech.am/image/cache/catalog/Products/Xiaomi-Mi-Notebook-Air-12-5-JYU4000CN/1-500x500.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Notebook</h5>
-    <p class="card-text">1000$</p>
-    <a href="shop.html" class="btn btn-primary">Add to cart</a>
+  <h3 style="margin-left:15px;margin-top: -10px; ">My Wishilit </h3>
+
+  <div class="row" style="width: 250px;margin-left: 10px; margin-top: -5px;" >
+     <table class="table table-hover">
+       <thead>
+              <tr>
+                     <th>Order</th>
+                     <th>Order Date</th>
+                     <th>Total</th>
+              </tr>
+       </thead>
+
+       <tbody>
+              <tr>
+               
+                     <td><img style="width: 40px;" src="https://www.mtech.am/image/cache/catalog/Products/Xiaomi-Mi-Notebook-Air-12-5-JYU4000CN/1-500x500.jpg"></td>
+                     <td>25.08.2020</td>
+                     <td>1000$</td>
+              </tr>
+
+              <tr>
+                      <td><img style="width: 40px;" src="https://www.mtech.am/image/cache/catalog/Products/Xiaomi-Mi-Notebook-Air-12-5-JYU4000CN/1-500x500.jpg"></td>
+                     <td>25.08.2020</td>
+                     <td>1000$</td>
+              </tr>
+
+              <tr>
+                     <td><img style="width: 40px;" src="https://www.mtech.am/image/cache/catalog/Products/Xiaomi-Mi-Notebook-Air-12-5-JYU4000CN/1-500x500.jpg"></td>
+                     <td>25.08.2020</td>
+                     <td>1000$</td>
+              </tr>
+            
+       </tbody>
+    </table>
   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 </div>
-<div class="card col-12  col-md-6  col-xl-2">
-  <img src="https://www.mtech.am/image/cache/catalog/Products/Xiaomi-Mi-Notebook-Air-12-5-JYU4000CN/1-500x500.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Notebook</h5>
-    <p class="card-text">1000$</p>
-    <a href="shop.html" class="btn btn-primary">Add to cart</a>
+
+</div>
+
+
+  
+    <div class="card" style="max-width: 540px;  ">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="https://www.mtech.am/image/cache/catalog/Products/Xiaomi-Mi-Notebook-Air-12-5-JYU4000CN/1-500x500.jpg" class="card-img" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">XIAOMI MI NOTEBOOK AIR 12.5"</h5>
+        <p class="card-text">Processor  Intel Core M3 6Y30
+Memory  4GB (1x4GB, LPDDR3 1866Mhz)
+SSD 128GB
+Graphics Card Intel HD Graphics 615 (Integrated)
+Screen Size 12.5" </p>
+        <h3>10.000$</h3>
+        <a class="btn btn-primary" href="buy.html" role="button">Buy</a>
+      </div>
+    </div>
   </div>
-</div>
-<div class="card col-12  col-md-6  col-xl-2">
-  <img src="https://www.mtech.am/image/cache/catalog/Products/Xiaomi-Mi-Notebook-Air-12-5-JYU4000CN/1-500x500.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Notebook</h5>
-    <p class="card-text">1000$</p>
-    <a href="shop.html" class="btn btn-primary">Add to cart</a>
+
+
+  
+    <div class="card" style="max-width: 540px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="https://www.mtech.am/image/cache/catalog/Products/Xiaomi-Mi-Notebook-Air-12-5-JYU4000CN/1-500x500.jpg" class="card-img" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">XIAOMI MI NOTEBOOK AIR 12.5"</h5>
+        <p class="card-text">Processor  Intel Core M3 6Y30
+Memory  4GB (1x4GB, LPDDR3 1866Mhz)
+SSD 128GB
+Graphics Card Intel HD Graphics 615 (Integrated)
+Screen Size 12.5" </p>
+        <h3>10.000$</h3>
+        <a class="btn btn-primary" href="buy.html" role="button">Buy</a>
+      </div>
+    </div>
   </div>
-</div>
-<div class="card col-12  col-md-6  col-xl-2">
-  <img src="https://www.mtech.am/image/cache/catalog/Products/Xiaomi-Mi-Notebook-Air-12-5-JYU4000CN/1-500x500.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Notebook</h5>
-    <p class="card-text">1000$</p>
-    <a href="shop.html" class="btn btn-primary">Add to cart</a>
+
+
+  
+    <div class="card" style="max-width: 540px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="https://www.mtech.am/image/cache/catalog/Products/Xiaomi-Mi-Notebook-Air-12-5-JYU4000CN/1-500x500.jpg" class="card-img" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">XIAOMI MI NOTEBOOK AIR 12.5"</h5>
+        <p class="card-text">Processor  Intel Core M3 6Y30
+Memory  4GB (1x4GB, LPDDR3 1866Mhz)
+SSD 128GB
+Graphics Card Intel HD Graphics 615 (Integrated)
+Screen Size 12.5" </p>
+        <h3>10.000$</h3>
+        <a class="btn btn-primary" href="buy.html" role="button">Buy</a>
+      </div>
+    </div>
   </div>
-</div>
-</div>
 
-<!-- COMP -->
-<div class="text-center" style="background-color:#8c8c8c;"><h1>COMPUTER</div>
-<div class="row justify-content-center" style="background-color:#8c8c8c; ">
-<div class="card col-12  col-md-6  col-xl-2">
-  <img src="https://www.mtech.am/image/cache/catalog/GBM/GBM-Tor-Rev-1-0/GBM%20Tor%20(Rev.%201.0)-500x500.png" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">PC</h5>
-    <p class="card-text">2000$</p>
-    <a href="shop.html" class="btn btn-primary">Add to cart</a>
   </div>
+
+
+
 </div>
-<div class="card col-12  col-md-6  col-xl-2">
-  <img src="https://www.mtech.am/image/cache/catalog/GBM/GBM-Tor-Rev-1-0/GBM%20Tor%20(Rev.%201.0)-500x500.png" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">PC</h5>
-    <p class="card-text">2000$</p>
-    <a href="shop.html" class="btn btn-primary">Add to cart</a>
+    </div>
+
+
+
+
+
+
+
+
   </div>
-</div>
-<div class="card col-12  col-md-6  col-xl-2">
-  <img src="https://www.mtech.am/image/cache/catalog/GBM/GBM-Tor-Rev-1-0/GBM%20Tor%20(Rev.%201.0)-500x500.png" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">PC</h5>
-    <p class="card-text">2000$</p>
-    <a href="shop.html" class="btn btn-primary">Add to cart</a>
-  </div>
-</div>
-<div class="card col-12  col-md-6  col-xl-2">
-  <img src="https://www.mtech.am/image/cache/catalog/GBM/GBM-Tor-Rev-1-0/GBM%20Tor%20(Rev.%201.0)-500x500.png" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">PC</h5>
-    <p class="card-text">2000$</p>
-    <a href="shop.html" class="btn btn-primary">Add to cart</a>
-  </div>
-</div>
-<div class="card col-12  col-md-6  col-xl-2">
-  <img src="https://www.mtech.am/image/cache/catalog/GBM/GBM-Tor-Rev-1-0/GBM%20Tor%20(Rev.%201.0)-500x500.png" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">PC</h5>
-    <p class="card-text">2000$</p>
-    <a href="shop.html" class="btn btn-primary">Add to cart</a>
-  </div>
-</div>
-<div class="card col-12  col-md-6  col-xl-2">
-  <img src="https://www.mtech.am/image/cache/catalog/GBM/GBM-Tor-Rev-1-0/GBM%20Tor%20(Rev.%201.0)-500x500.png" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">PC</h5>
-    <p class="card-text">2000$</p>
-    <a href="shop.html" class="btn btn-primary">Add to cart</a>
-  </div>
-</div>
-</div>
 
-<!-- Klaviatura -->
-<div class="text-center"  style="background-color: #910500;"><h1>Keyboards</h1></div>
-<div class="row justify-content-center" style="background-color:#910500; ">
-<div class="card col-12  col-md-6  col-xl-2">
-  <img src="https://www.mtech.am/image/cache/catalog/Products/ASUS-Cerberus-MKII-Gaming-Keyboard/1-500x500.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Keyboard</h5>
-    <p class="card-text">100$</p>
-    <a href="shop.html" class="btn btn-primary">Add to cart</a>
-  </div>
-</div>
-<div class="card col-12  col-md-6  col-xl-2">
-  <img src="https://www.mtech.am/image/cache/catalog/Products/ASUS-Cerberus-MKII-Gaming-Keyboard/1-500x500.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Keyboard</h5>
-    <p class="card-text">100$</p>
-    <a href="shop.html" class="btn btn-primary">Add to cart</a>
-  </div>
-</div>
-<div class="card col-12  col-md-6  col-xl-2">
-  <img src="https://www.mtech.am/image/cache/catalog/Products/ASUS-Cerberus-MKII-Gaming-Keyboard/1-500x500.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Keyboard</h5>
-    <p class="card-text">100$</p>
-    <a href="shop.html" class="btn btn-primary">Add to cart</a>
-  </div>
-</div>
-<div class="card col-12  col-md-6  col-xl-2">
-  <img src="https://www.mtech.am/image/cache/catalog/Products/ASUS-Cerberus-MKII-Gaming-Keyboard/1-500x500.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Keyboard</h5>
-    <p class="card-text">100$</p>
-    <a href="shop.html" class="btn btn-primary">Add to cart</a>
-  </div>
-</div>
+
+
 
 </div>
 
@@ -265,103 +306,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <div class="container-fluid">
+ <div class="container-fluid">
     <div class="row text-center b25 text-light text-uppercase bg-dark ">
       <div class="col-12 col-md">
         <a href="" class="nav-link  text-light h5">contact us</a> 
@@ -507,12 +452,18 @@
         <button type="button" class="btn btn-primary">Sign Up</button>
       </div>
     </div>
-  </div>
+  
+   </div> 
+
 </div>
+
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
   </body>
 </html>
